@@ -1,0 +1,38 @@
+.people__container {
+    @include flex;
+    align-items: center;
+    padding-bottom: 234px;
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        width: 414px;
+        height: 434px;
+        background: url("../img/people-group.png") no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 180px;
+        left: 125px;
+    }
+}
+.people__content {
+    width: 466px;
+    margin-left: 222px;
+}
+.people__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    margin: 0;
+}
+.people__descreption {
+    font-weight: 300;
+    line-height: 28px;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 0;
+    padding-top: 30px;
+}

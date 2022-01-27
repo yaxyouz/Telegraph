@@ -1,0 +1,33 @@
+.cta__container {
+    background: #00194A;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.cta__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.cta__descreption {
+    width: 580px;
+    display: inline-block;
+    line-height: 28px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.cta__link {
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+.cta__link:hover {
+    color: #fff;
+    border: 2px solid #fff;
+}

@@ -1,0 +1,39 @@
+.intro__container {
+    padding-top: 115px;
+    padding-bottom: 158px;
+    position: relative;
+}
+.intro__container::after {
+    content: "";
+    display: block;
+    width: 655px;
+    height: 604px;
+    background: url("../img/intro-img.png") no-repeat right top;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: -65px;
+}
+.intro__content {
+    width: 550px;
+}
+.intro__title {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #00194A;
+    margin: 0;
+}
+.intro__descreption {
+    font-weight: 300;
+    color: rgba(0, 25, 74, 0.8);
+    mix-blend-mode: normal;
+    line-height: 28px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.intro__link {
+    padding: 20px 47px;
+    border-radius: 30px;
+}
